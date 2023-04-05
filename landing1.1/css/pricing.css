@@ -1,0 +1,67 @@
+.pricing {
+    background-color:#F5F5F5;
+    padding: 80px 0 59px;
+}
+
+.tariff-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+  
+}
+
+.tariff {
+    width: 340px;
+    margin: 0 15px;
+}
+
+.tariff-type {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    line-height: 50px;
+    font-size: 20px;
+    background-color:#333333 ;
+    font-weight:700px ;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.tariff-price {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    line-height: 100px;
+    background-color:#333333 ;
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.tariff-slogan {
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(255,255,255,0.5);
+    line-height: 50px;
+    background-color:#333333 ;
+    font-size: 14px;
+    font-weight: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.tariff-option {
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+    line-height: 40px;
+    background-color:#FFFFFF ;
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4px;
+}

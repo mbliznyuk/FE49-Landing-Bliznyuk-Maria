@@ -1,35 +1,20 @@
 .section {
     background-color: white;
+    padding: 80px 0 116px;
 }
 
-.line {
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    margin: auto;
-    margin-bottom: 34px;
-}
-
-.discription {
-    font-size: 14px;
-    color: #86878B;
-    width: 363px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 68px;
-}
 
 .card-wrap {
     display: flex;
     justify-content: space-between;
-}
+    margin: 0 -15px;
+   }
 
 .awesome-card {
     /* width: 350px;
     padding: 0 10px;
     margin: auto; */
+    margin: 0 15px;
 }
 
 .awesome-card_img {
@@ -48,7 +33,7 @@
     /* object-fit: cover;
     object-position: center; 
     width: 50%;
-    height: 50%; */
+    height: 50%; */ 
 }
 
 .card-title {
@@ -60,11 +45,9 @@
     margin-bottom: 16px;
 }
 
-.card-text {
+.card-text p {
     font-family: 'Open Sans', sans-serif;
-    /* width: 350px; */
-    font-size: 14px;
+       font-size: 14px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 123px;
-}
+    }
