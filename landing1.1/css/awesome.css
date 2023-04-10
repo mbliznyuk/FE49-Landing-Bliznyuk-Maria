@@ -6,15 +6,15 @@
 
 .card-wrap {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 0 -15px;
+    flex-wrap: wrap;
    }
 
 .awesome-card {
-    /* width: 350px;
-    padding: 0 10px;
-    margin: auto; */
     margin: 0 15px;
+    width: 350px;
 }
 
 .awesome-card_img {
@@ -27,13 +27,6 @@
     margin: 0 auto 20px;
     border-radius: 50%;
     overflow: hidden;
-}
-
-.awesome-card_img img {
-    /* object-fit: cover;
-    object-position: center; 
-    width: 50%;
-    height: 50%; */ 
 }
 
 .card-title {

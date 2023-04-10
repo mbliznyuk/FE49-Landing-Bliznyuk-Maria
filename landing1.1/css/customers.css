@@ -1,0 +1,92 @@
+.customers {
+    background-color: #fff;
+    padding: 80px 0 120px;
+}
+
+.reviwer-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.reviwer-card {
+    width: 300px;
+    margin: 0 15px;
+}
+
+.reviwer-text {
+    width: 300px;
+    background-color: #E2E2E2;
+    border-radius: 1em;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.reviwer-text::after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid  #E2E2E2;
+    position: absolute;
+    top: 115px;
+    left: 50px;
+}
+
+
+.reviwer-text p {
+    text-align: center;
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.reviwer-author {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.reviwer-author_img {
+    border: 1px solid #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.reviwer-author_img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.reviwer-author_name {
+    font-family: 'Open Sans';
+    text-align: right;
+}
+
+.reviwer-author_firstname {
+    margin-bottom: 10px;
+}
+
+.reviwer-author_firstname p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.reviwer-auhor_position {}
+
+.reviwer-auhor_position p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}

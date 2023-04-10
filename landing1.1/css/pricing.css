@@ -3,11 +3,31 @@
     padding: 80px 0 59px;
 }
 
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    width: 670px;
+    line-height: 42px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+}
+
+.title::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    display: block;
+    background-color: #E72424;
+    margin: auto;
+    margin-top: 34px;
+  }
+
 .tariff-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
     margin: 0 -15px;
     flex-wrap: wrap;
   
@@ -64,4 +84,8 @@
     text-align: center;
     margin: auto;
     margin-bottom: 4px;
+}
+
+.tariff-option:last-child {
+    margin-bottom: 0;
 }
