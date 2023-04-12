@@ -1,0 +1,38 @@
+.header {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 20px 0;
+}
+
+.header-wrape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+
+.logo::after {
+    content: 'it';
+    color: rgba(236, 121, 121, 1);
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-list_item {
+    margin-left: 50px;
+}
+
+.navigation-list_item a {
+font-family: 'Open Sans';
+color: rgba(255, 255, 255, 0.7);
+font-size: 15px;
+font-weight: 600;
+text-transform: capitalize;
+}

@@ -1,0 +1,57 @@
+.footer {
+    background-color: #000000;
+    padding: 30px 0 15px;
+}
+
+.footer-list {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-list_item {
+   font-size: 23px;
+   margin-bottom: 18px;
+}
+
+.finale {
+    margin: auto;
+}
+
+.finale p {
+    color: rgba(134, 135, 139, 1);
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fa-facebook-f_footer {
+    color:#E2E2E2;
+}
+
+.fa-twitter_footer {
+    color:#E2E2E2;
+}
+
+.fa-goodreads-g_footer {
+    color:#E2E2E2;
+}
+
+.fa-pinterest_footer {
+    color:#E2E2E2;
+}
+
+.fa-instagram_footer {
+    color:#E2E2E2;
+}
+
+.fa-stumbleupon_footer {
+    color:#E2E2E2;
+}
+
+.fa-wifi_footer {
+    color:#E2E2E2;
+}

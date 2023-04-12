@@ -3,6 +3,9 @@
 @import url(./pricing.css);
 @import url(./customers.css);
 @import url(./stylish.css);
+@import url(./header.css);
+@import url(./media.css);
+@import url(./footer.css);
 
 * {
   margin: 0;
@@ -34,6 +37,10 @@ html {
   margin-bottom: 34px;
 }
 
+.discription {
+  margin-bottom: 68px;
+}
+
 .discription p {
   font-size: 14px;
   color: #86878B;
@@ -42,5 +49,4 @@ html {
   font-weight: 400;
   text-align: center;
   margin: auto;
-  margin-bottom: 68px;
 }
