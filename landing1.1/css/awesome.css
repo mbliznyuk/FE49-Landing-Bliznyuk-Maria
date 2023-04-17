@@ -10,7 +10,7 @@
     justify-content: space-between;
     margin: 0 -15px;
     flex-wrap: wrap;
-   }
+}
 
 .awesome-card {
     margin: 0 15px;
@@ -26,7 +26,21 @@
     height: 70px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    overflow: hidden;
+}
+
+.fa-lightbulb_awesome {
+    font-size: 30px;
+    color: #fd872d;
+}
+
+.fa-keyboard_awesome {
+    font-size: 30px;
+    color: #fd872d;
+}
+
+.fa-bolt-lightning_awesome {
+    font-size: 30px;
+    color: #fd872d;
 }
 
 .card-title {
@@ -43,4 +57,4 @@
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    }
+}

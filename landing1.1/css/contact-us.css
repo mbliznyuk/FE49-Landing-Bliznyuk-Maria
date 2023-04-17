@@ -1,0 +1,58 @@
+.contact-us {
+    background-color: #fff;
+    padding: 85px 0 50px;
+}
+
+.form_contact-us_wraper {
+    display: flex;
+    justify-content: center;
+     margin-bottom: 65px;
+     gap: 200px;
+}
+
+
+.form_contact-us-content {
+    width: 480px;
+}
+
+.form_contact-us_item {
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form_contact-us_item:last-child {
+margin-bottom: 0;
+}
+
+.textarea_contact-us {
+    width: 480px;
+    height: 100%;
+}
+
+.textarea_contact-us_content {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(189, 189, 189, 1);
+    resize: none;
+    border: none;
+    border-bottom:1px solid rgba(189, 189, 189, 1);
+    width: 100%;
+    height: 148px; /* TODO: Ask mentor how to not hardcode */
+}
+
+.form_contact-us_button {
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: rgba(236, 121, 121, 1);
+    border: 1px solid rgba(236, 121, 121, 1);
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.form_contact-us_button:hover {
+    border: 1px solid rgba(236, 121, 121, 1);
+    background-color: rgba(247, 247, 247, 0.949);
+    color: rgba(236, 121, 121, 1);
+}

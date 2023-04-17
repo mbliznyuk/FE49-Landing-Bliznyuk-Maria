@@ -3,27 +3,6 @@
     padding: 80px 0 53px;
 }
 
-.title {
-    font-size: 36px;
-    font-weight: 400;
-    width: 670px;
-    line-height: 42px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 34px;
-    text-transform: uppercase;
-}
-
-.title::after {
-    content: '';
-    width: 64px;
-    height: 2px;
-    display: block;
-    background-color: #E72424;
-    margin: auto;
-    margin-top: 34px;
-  }
-
 .reviwer-wrap {
     display: flex;
     justify-content: space-between;
@@ -56,7 +35,6 @@
     top: 100%;
     left: 50px;
 }
-
 
 .reviwer-text p {
     text-align: center;

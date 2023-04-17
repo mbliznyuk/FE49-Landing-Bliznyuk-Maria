@@ -9,30 +9,40 @@
     align-items: center;
 }
 
-.logo {
+.logo-navigation {
     font-size: 30px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
 }
 
-.logo::after {
+.logo-navigation::after {
     content: 'it';
     color: rgba(236, 121, 121, 1);
 }
 
 .navigation-list {
     display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navigation-list_item {
-    margin-left: 50px;
+.navigation-list_item {}
+
+.navigation-list_item:hover {
+    border-bottom: 1px solid rgba(236, 121, 121, 1);
+    transform: scale(1.1);
 }
 
 .navigation-list_item a {
-font-family: 'Open Sans';
-color: rgba(255, 255, 255, 0.7);
-font-size: 15px;
-font-weight: 600;
-text-transform: capitalize;
+    font-family: 'Open Sans';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navigation-list_item a:hover {
+    color:rgba(236, 121, 121, 1) ;
 }
