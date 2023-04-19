@@ -10,7 +10,7 @@
 }
 
 .logo-navigation {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
@@ -28,7 +28,11 @@
     align-items: center;
 }
 
-.navigation-list_item {}
+.navigation-list_item {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+}
 
 .navigation-list_item:hover {
     border-bottom: 1px solid rgba(236, 121, 121, 1);

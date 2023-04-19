@@ -10,7 +10,7 @@
     justify-content: space-between;
     margin: 0 -15px;
     flex-wrap: wrap;
-}
+   }
 
 .awesome-card {
     margin: 0 15px;
@@ -22,10 +22,11 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #E72424;
-    width: 70px;
+    width: 70px; 
     height: 70px;
     margin: 0 auto 20px;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .fa-lightbulb_awesome {
@@ -54,7 +55,7 @@
 
 .card-text p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+       font-size: 14px;
     font-weight: 400;
     text-align: center;
-}
+    }
