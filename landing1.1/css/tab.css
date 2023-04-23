@@ -47,7 +47,7 @@
 }
 
 .tab-content_text {
-    width: 572px;
+    width: 580px;
     margin-bottom: 90px;
 }
 
@@ -64,12 +64,18 @@
 .tab-content_text p:last-child {
     margin-bottom: 0;
 }
+.tab-content1 {
+    display: flex;
+    flex-direction: column;
+    width: 972px;
+   }
 
-.tab-content_1 {
+
+.content1{
     display: flex;
     justify-content: space-between;
-    width: 972px;
-}
+    width: 100%;
+  }
 
 .tab-conten_download-item {
     display: block;

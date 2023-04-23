@@ -12,6 +12,7 @@
 
 .reviwer-card {
     width: 300px;
+    margin: 0 15px;
 }
 
 .reviwer-text {
@@ -47,13 +48,13 @@
 .reviwer-author {
     display: flex;
     justify-content: space-between;
-    padding: 0 3.125rem;
+    padding: 0 50px;
 }
 
 .reviwer-author_img {
     border: 1px solid #ffffff;
-    width: 4.375rem;
-    height: 4.375rem;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -75,7 +76,7 @@
 }
 
 .reviwer-author_firstname p {
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 700;
     color: #333333;
 }

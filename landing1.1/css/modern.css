@@ -23,7 +23,7 @@
 .logo-modern {
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 3.75rem;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@
     color: #FFFFFF;
     width: 545px;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: left;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -87,7 +87,6 @@
 .form-trial {
     background-color: #FFFFFF;
     width: 370px;
-    /* height: 370px; */
     border-radius: 10px;
     overflow: hidden;
 }

@@ -6,13 +6,13 @@
 .form_contact-us_wraper {
     display: flex;
     justify-content: center;
-     margin-bottom: 65px;
-     gap: 200px;
+    justify-content: space-between;
+    margin-bottom: 65px;
 }
 
 
 .form_contact-us-content {
-    width: 480px;
+    width: 40%;
 }
 
 .form_contact-us_item {
@@ -22,11 +22,11 @@
 }
 
 .form_contact-us_item:last-child {
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .textarea_contact-us {
-    width: 480px;
+    width: 40%;
     height: 100%;
 }
 

@@ -34,7 +34,7 @@ html {
 .title {
   font-size: 2.25rem;
   font-weight: 400;
-  width: 670px;
+  width: 41.875rem;
   line-height: 42px;
   text-align: center;
   margin: auto;
@@ -53,17 +53,18 @@ html {
 }
 
 .discription {
+  margin: auto;
   margin-bottom: 68px;
+  width: 780px;
 }
 
 .discription p {
   font-size: 14px;
   color: #86878B;
-  width: 780px;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   text-align: center;
-  margin: auto;
 }
 
 input {
@@ -94,22 +95,36 @@ label {
     width: 500px;
   }
 
+  .media-list_item {
+    font-size: 38px;
+  }
 
   .header-tab_btn {
     width: 90px;
     height: 90px;
   }
 
-  .tab-content_1 {
-    width: 800px;
+  .tab-content_text {
+    width: 400px;
+  }
+
+  .content1{
+     width: 800px;
+     justify-content: space-around;
   }
 
   .awesome-card {
-    width: 200px;
+    width: 250px;
   }
 
   .tariff {
-    width: 240px;
+    width: 280px;
+  }
+
+  .tariff-price {
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 600;
   }
 
 }
@@ -123,12 +138,33 @@ label {
     max-width: 750px;
   }
 
-  .form-trial {
-    width: 350px;
+  .main-title {
+    width: 400px;
   }
 
-  .header-tab {
-    justify-content: center;
+  .modern-form {
+    width: 300px;
+  }
+
+  .form-trial {
+    width: 100%;
+  }
+
+  .form-title {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .media-discription {
+    width: 300px;
+  }
+
+  .media-list {
+    width: 400px;
+  }
+
+  .media-list_item {
+    font-size: 28px;
   }
 
   .header-tab_btn {
@@ -136,65 +172,295 @@ label {
     height: 80px;
   }
 
+  .tab-content1 {
+    width: 600px;
+  }
+
   .tab-content_text {
     width: 400px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+  }
+
+  .tab-content_picture {
+    display: flex;
+    align-items: center;
   }
 
   .tab-content_picture img {
-    width: 220px;
+    width: 200px;
   }
 
-  .tab-content_1 {
-    width: 600px;
+  .tab-content_title {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .awesome-card {
+    width: 200px;
+  }
+
+  .awesome-card_img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .tariff {
     width: 200px;
   }
 
+  .tariff-type {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .tariff-price {
+    line-height: 60px;
+    font-size: 24px;
+  }
+
   .reviwer-card {
     width: 200px;
-    margin: 0 5px;
   }
 
-  .main-title {
-    font-size: 24px;
-    width: 300px;
+  .reviwer-author {
+    padding: 0 20px;
   }
-  .media-list_item {
-    font-size: 32px;
+
+  .reviwer-author_firstname p {
+    font-size: 18px;
+    font-weight: 600;
   }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   html {
     font-size: 10px;
   }
 
   .container {
-    width: 720px;
+    width: 100%;
   }
-
-  .main-title {
-    font-size: 20px;
-    width: 210px;
-  }
-  .media-list  {
-    width: 200px;
-  }
-  .media-list_item {
-    font-size: 28px;
-  }
-  .tab-content_picture img {
-    width: 220px;
-  }
+  .content1{
+    width: 560px;
+    justify-content: space-between;
+ }
+ .discription {
+  margin: auto;
+  margin-bottom: 68px;
+  width: 600px;
+}
+.discription_white {
+   width: 680px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+ 
+}
 }
 
 @media (max-width: 566px) {
   html {
     font-size: 13px;
   }
+
+  .container {
+    width: 100%;
+  }
+
+  .modern-wrape {
+    flex-direction: column;
+  }
+
+  .modern {
+    padding: 50px 0;
+  }
+
+  .logo-modern {
+    text-align: center;
+    display: block;
+    justify-content: center;
+  }
+
+  .main-title {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .main-title::after {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .modern-discription {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .modern-download {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .modern-form {
+    margin: auto;
+    width: 370px;
+  }
+
+  .title3 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .media-discription {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .media-discription p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .media-wrape {
+    flex-direction: column;
+
+  }
+
+  .media-list {
+    justify-content: space-between;
+  }
+
+  .media-list_item {
+    font-size: 28px;
+  }
+
+  .tab {
+    padding: 90px 0;
+  }
+
+  .tab-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .header-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .tab-content_title {
+    text-align: center;
+    
+  }
+
+  .tab-content_text {
+    width: 100%;
+    margin-bottom: 50px;
+    width: 530px;
+    text-align: center;
+  }
+
+  .tab-content_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%
+  }
+
+  .tab-content_picture img {
+    width: 320px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .content1 {
+    flex-direction: column;
+  }
+  .tab-conten_download {
+    width: 530px;
+  }
+
+  .tab-conten_download-item {
+    margin: auto;
+  }
+
+  .card-wrap {
+    flex-direction: column;
+  }
+
+  .awesome-card {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .discription {
+    width: 400px;
+  }
+
+  .tariff-wrap {
+    flex-direction: column;
+  }
+
+  .tariff {
+    width: 340px;
+    margin: 0 15px;
+    transition: 0.9s;
+  }
+
+  .tariff-option:last-child {
+    margin-bottom: 20px;
+  }
+  .reviwer-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     margin: 0 -15px;
+    flex-wrap: wrap;
 }
 
-@media (max-width: 320px) {}
+.reviwer-card {
+    width: 300px;
+    margin: 0 15px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.discription_white {
+  width: 530px;
+}
+
+
+.form_contact-us_wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form_contact-us-content {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+.textarea_contact-us {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+}

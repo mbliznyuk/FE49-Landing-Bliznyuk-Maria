@@ -25,8 +25,8 @@
 .tariff-type {
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
-    line-height: 3.125rem;
-    font-size: 1.25rem;
+    line-height: 50px;
+    font-size: 20px;
     background-color:#333333 ;
     font-weight:700px ;
     text-align: center;
@@ -37,9 +37,9 @@
 .tariff-price {
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
-    line-height: 6.25rem;
+    line-height: 100px;
     background-color:#333333 ;
-    font-size: 2.1875rem;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin: auto;
