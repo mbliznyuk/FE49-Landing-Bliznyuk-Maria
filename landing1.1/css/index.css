@@ -375,7 +375,7 @@ label {
     text-align: center;
   }
 
-  .tab-content_1 {
+  .tab-content1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -390,6 +390,7 @@ label {
 
   .content1 {
     flex-direction: column;
+    width: 100%;
   }
   .tab-conten_download {
     width: 530px;
