@@ -4,6 +4,7 @@
 }
 
 .footer-list {
+    padding: 0 15px;
     width: 400px;
     display: flex;
     justify-content: space-between;
